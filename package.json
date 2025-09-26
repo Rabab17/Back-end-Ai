@@ -1,0 +1,55 @@
+{
+  "name": "e-commerce-With-Ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application powered by postgress database. and with AI integration for enhanced user experience.",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "seed:example": "node ./scripts/seed.js",
+    "setup:permissions": "node ./scripts/setup-permissions.js",
+    "test:errors": "node ./scripts/test-error-handling.js",
+    "test:standardized-errors": "node ./scripts/test-standardized-errors.js",
+    "test:products-endpoint": "node ./scripts/test-products-endpoint.js",
+    "test:cloudinary": "node ./scripts/test-cloudinary-config.js",
+    "reset:cloudinary": "node ./scripts/reset-cloudinary.js",
+    "start": "strapi start",
+    "vercel-build": "node vercel-build.js",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.23.4",
+    "@strapi/plugin-documentation": "^5.23.4",
+    "@strapi/plugin-users-permissions": "5.23.4",
+    "@strapi/provider-upload-cloudinary": "^5.23.4",
+    "@strapi/strapi": "5.23.4",
+    "better-sqlite3": "^12.2.0",
+    "dotenv": "^17.2.2",
+    "fs-extra": "^10.0.0",
+    "mime-types": "^2.1.27",
+    "pg": "8.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "010bec53-752c-4bf6-abeb-415c64ddc95a",
+    "installId": "071a1c5b41be077dae05c02e7ebe552dddbbd16fdde40a45d57b95aec8e0fef0"
+  }
+}
