@@ -3,7 +3,7 @@
     "api/index.js": {
       "memory": 1024,
       "maxDuration": 60,
-      "excludeFiles": "{public/**,tests/**,docs/**,.cache/**,.tmp/**,dist/**,build/**,.strapi/**,exports/**,scripts/**,node_modules/better-sqlite3/**}"
+      "excludeFiles": "{public/**,tests/**,docs/**,.cache/**,.tmp/**,dist/**,build/**,.strapi/**,exports/**,scripts/**,node_modules/better-sqlite3/**,node_modules/react/**,node_modules/react-dom/**,node_modules/react-router-dom/**,node_modules/styled-components/**,node_modules/@strapi/admin/**,node_modules/@strapi/plugin-documentation/**}"
     }
   },
   "routes": [
