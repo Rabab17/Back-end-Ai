@@ -5,7 +5,12 @@
       "src": "api/index.js",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": ["dist/**", "build/**", "public/**", "config/**", "src/**", "database/**", "types/**", "node_modules/**"]
+        "includeFiles": [
+          "dist/**",
+          "config/**",
+          "public/**",
+          "database/**"
+        ]
       }
     }
   ],
