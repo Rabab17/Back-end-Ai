@@ -9,6 +9,8 @@
     "deploy": "strapi deploy",
     "dev": "strapi develop",
     "develop": "strapi develop",
+    "dev:insecure": "set NODE_TLS_REJECT_UNAUTHORIZED=0&& set NODE_NO_WARNINGS=1&& strapi develop",
+    "dev:offline": "set NODE_TLS_REJECT_UNAUTHORIZED=0&& set STRAPI_TELEMETRY_DISABLED=true&& set STRAPI_DISABLE_UPDATE_NOTIFICATION=true&& set NODE_NO_WARNINGS=1&& strapi develop",
     "seed:example": "node ./scripts/seed.js",
     "setup:permissions": "node ./scripts/setup-permissions.js",
     "test:errors": "node ./scripts/test-error-handling.js",
